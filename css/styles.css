@@ -46,10 +46,10 @@ img {
 
 /* CONTAINER  */
 .container {
-  max-width: 1200px;
+  max-width: 1600px;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -141,4 +141,37 @@ img {
   line-height: 30px ;
   color:  #263238;
   text-decoration: none;
+}
+
+
+/* MAIN-CONTENT */
+.hero {
+  margin-top: 125px;
+}
+
+.hero__container {
+  display: flex;
+}
+
+.hero__heading {
+  font-size: 64px;
+  line-height: 80px;
+  color: #000;
+  font-weight: 600;
+}
+
+.hero__text {
+  width: 632px;
+  font-size: 24px;
+  line-height: 36px;
+  color:#8F95A5;
+  font-weight: 400;
+}
+
+.hero__img {
+  margin-left: -227px;
+}
+
+.hero__button{
+  margin-top: 61px;
 }
