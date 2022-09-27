@@ -239,3 +239,59 @@ img {
 .skills__item-1{
   padding: 30px 22px 0px 43px;
 }
+
+
+/* ABOUT-US */
+.about-us {
+  margin-top: 190px;
+}
+
+.about-us__container {
+  display: flex;
+}
+
+.about__us-title {
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 600;
+}
+
+.about-us__text {
+  color: #8F95A5;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  width: 635px;
+}
+
+.about-us__count {
+  margin-top: 40px;
+  display: flex;
+}
+
+.about-us__inner{
+  align-items: center ;
+}
+
+.about-us__inner:not(:last-child) {
+  margin-right: 163px;
+}
+
+.about-us__number {
+  font-size: 48px;
+  line-height: 80px;
+  color: #2A3246;
+  font-weight: 600;
+}
+
+.about-us__little-text {
+  width: 200px;
+  color: #8F95A5;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.asout-us__img{
+  margin-left: 194px;
+}
