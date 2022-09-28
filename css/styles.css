@@ -104,6 +104,8 @@ img {
   line-height: 45px;
   font-weight: 400;
   text-decoration: none;
+  text-align: center;
+  align-items: center;
   transition: background-color 0.5s ease-in-out;
 }
 
@@ -136,6 +138,18 @@ img {
   padding: 17px 57px;
 }
 
+.button__form {
+  width: 100%;
+  max-width: 260px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-left: 12px;
+  border: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  border-radius: 10px;
+}
 
 /* SITE-HEADER */
 .site-header {
@@ -413,3 +427,57 @@ img {
   font-weight: 400;
   color: #546269;
 }
+
+
+/* CONTACT US */
+.contact-us {
+  padding-top: 165px;
+}
+
+.contact-us__container {
+  display: flex;
+  align-items: center;
+}
+
+.contact-us__wrapper{
+  flex-direction: column;
+  display: flex;
+  margin-left: 111px;
+}
+
+.contact__us-about {
+  width: 100%;
+  max-width: 780px;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.contact-us__title {
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 600;
+}
+
+.contact__us-text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #8F95A5;
+}
+
+.form__inner {
+  display: flex;
+}
+
+.form__input {
+  width: 100%;
+  max-width: 450px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #8F95A5;
+  border-radius: 10px;
+  border: 1px solid #8F95A5;
+  padding: 32px;
+}
+
