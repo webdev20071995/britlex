@@ -285,6 +285,48 @@ img {
   width: 635px;
 }
 
+/* INFO */
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-left: -120px;
+  margin-bottom: -50px;
+}
+
+.info__text-number-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+.info__text {
+  font-size: 20px;
+  line-height: normal;
+  white-space: nowrap;
+  color: #8F95A5;
+}
+
+.info__number {
+  order: -1;
+  color:#2A3246;
+  font-size: 48px;
+  line-height: 166%;
+  font-weight: 600;
+  margin: 0;
+}
+
+.asout-us__img {
+  margin-left: 190px;
+  display: block;
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+}
+
 
 /* PRICING */
 .pricing {
