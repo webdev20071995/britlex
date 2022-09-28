@@ -151,6 +151,10 @@ img {
   border-radius: 10px;
 }
 
+.site-hader__button{
+  margin-left: 230px;
+}
+
 /* SITE-HEADER */
 .site-header {
   display: flex;
