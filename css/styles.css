@@ -481,3 +481,34 @@ img {
   padding: 32px;
 }
 
+
+/* FOOTER */
+.footer {
+  border-top: 1px solid #C4C4C4;
+  margin-top: 133px;
+}
+
+.footer__container {
+  margin-top: 31px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.footer__logo:hover {
+  opacity: 0.6;
+}
+
+.footer__logo:hover {
+  opacity: 0.8;
+}
+
+.footer__items {
+  font-size: 24px;
+  line-height: 36px;
+  color: #8F95A5;
+  font-weight: 400;
+  align-items: flex-end;
+  margin-left: 600px;
+}
+
