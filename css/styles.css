@@ -316,3 +316,90 @@ img {
 .asout-us__img{
   margin-left: 194px;
 }
+
+
+/* PRICING */
+.pricing {
+  margin-top: 230px;
+}
+
+.pricing-heading {
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.pricing__list {
+  list-style: none;
+  display: flex;
+}
+
+.pricing__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.pricing__item{
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 580px;
+  margin-bottom: 80px;
+  align-items: flex-start;
+}
+
+.pricing__item-size{
+  margin-top: -25px;
+}
+
+.pricing__item-bottom{
+  padding-top: 1px;
+}
+
+.pricing__bottom{
+  margin-top: 45px;
+}
+
+.pricing__title {
+  font-size: 30px;
+  line-height: 48px;
+  color: #263238;
+  font-weight: 600;
+}
+
+.pricing__text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #8F95A5;
+}
+
+.pricing__payment {
+  width: 240px;
+  /* height: 45px; */
+  font-size: 18px;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-width: 240px;
+}
+
+.pricing__number {
+  font-size: 30px;
+  line-height: 45px;
+  color: #263238;
+  font-weight: 400;
+}
+
+.pricing__number-info {
+  margin-left: 11px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #546269;
+}
