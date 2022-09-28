@@ -158,8 +158,6 @@ img {
 }
 
 .site-header__container {
-  margin-right: 0px;
-  margin-left: 0;
   display: flex;
   align-items: center;
   text-align: center;
