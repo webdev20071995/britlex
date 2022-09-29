@@ -269,6 +269,7 @@ img {
 }
 
 .skills__list {
+  margin: 0;
   display: grid;
   list-style: none;
   grid-gap: 20px;
@@ -316,13 +317,11 @@ img {
 }
 
 .skills__item-2{
-  width: 402px; 
-  height: 541px;
+
 }
 
 .skills__item-3{
-  width: 380px;
-  height: 541px;
+  
 }
 
 .skills__item-4{
